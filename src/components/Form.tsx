@@ -16,7 +16,7 @@ export const Form = () => {
       <div className="field">
         <label className="label">Mono</label>
         <div className="control has-icons-left">
-          <input className="input" type="number" placeholder="Cash" />
+          <input className="input" type="number" placeholder="Mono" />
           <span className='icon is-left'>
             <i className="fa-solid fa-money-check"></i>
           </span>
@@ -26,7 +26,7 @@ export const Form = () => {
       <div className="field">
         <label className="label">Приват</label>
         <div className="control has-icons-left">
-          <input className="input" type="number" placeholder="Cash" />
+          <input className="input" type="number" placeholder="Privat" />
           <span className='icon is-left'>
             <i className="fa-solid fa-money-check"></i>
           </span>
@@ -36,7 +36,7 @@ export const Form = () => {
       <div className="field">
         <label className="label">Dollars</label>
         <div className="control has-icons-left">
-          <input className="input" type="number" placeholder="Cash" />
+          <input className="input" type="number" placeholder="Dollars" />
           <span className='icon is-left'>
             <i className="fa-solid fa-dollar-sign"></i>
           </span>
@@ -46,7 +46,7 @@ export const Form = () => {
       <div className="field">
         <label className="label">Euros</label>
         <div className="control has-icons-left">
-          <input className="input" type="number" placeholder="Cash" />
+          <input className="input" type="number" placeholder="Euros" />
           <span className='icon is-left'>
             <i className="fa-solid fa-euro-sign"></i>
           </span>
@@ -56,7 +56,7 @@ export const Form = () => {
       <div className="field">
         <label className="label">LeoCard</label>
         <div className="control has-icons-left">
-          <input className="input" type="number" placeholder="Cash" />
+          <input className="input" type="number" placeholder="LeoCard" />
           <span className='icon is-left'>
             <i className="fa-solid fa-bus"></i>
           </span>
@@ -93,7 +93,7 @@ export const Form = () => {
       <div className="field">
         <label className="label">Загальні відомості</label>
         <div className="control">
-          <textarea className="textarea" placeholder="Textarea"></textarea>
+          <textarea className="textarea" placeholder="Загальні відомості"></textarea>
         </div>
       </div>
 
