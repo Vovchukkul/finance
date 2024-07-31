@@ -12,7 +12,7 @@ export const PaymentsList:React.FC<Props> = ({ payments }) => {
 
       <table className='table container'>
           <thead className='thead is-success'>
-            <tr>
+            <tr className='is-size-5 is-size-7-mobile'>
               <th>Date</th>
               <th>Cash</th>
               <th className='is-hidden-mobile'>Mono</th>
@@ -25,7 +25,7 @@ export const PaymentsList:React.FC<Props> = ({ payments }) => {
             </tr>
           </thead>
           {payments.map(payment => (
-            <tr>
+            <tr className='is-size-5 is-size-7-mobile'>
               <td>{payment.date}</td>
               <td>{payment.cash}</td>
               <td className='is-hidden-mobile'>{payment.mono}</td>
