@@ -5,6 +5,6 @@ export interface Payment {
   dollars: number;
   euros: number;
   leocard: number;
-  overal: string;
+  savings: number;
   date: string;
 }
