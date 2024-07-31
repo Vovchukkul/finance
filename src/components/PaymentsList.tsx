@@ -15,10 +15,11 @@ export const PaymentsList:React.FC<Props> = ({ payments }) => {
             <tr>
               <th>Date</th>
               <th>Cash</th>
-              <th>Mono</th>
-              <th>Privat</th>
-              <th>Dollars</th>
-              <th>Euros</th>
+              <th className='is-hidden-mobile'>Mono</th>
+              <th className='is-hidden-mobile'>Privat</th>
+              <th className='is-hidden-tablet is-hidden-desktop'>Cards</th>
+              <th className='is-hidden-mobile'>Dollars</th>
+              <th className='is-hidden-mobile'>Euros</th>
               <th>Leocard</th>
               <th className='bold'>Overal</th>
             </tr>
@@ -27,10 +28,11 @@ export const PaymentsList:React.FC<Props> = ({ payments }) => {
             <tr>
               <td>{payment.date}</td>
               <td>{payment.cash}</td>
-              <td>{payment.mono}</td>
-              <td>{payment.privat}</td>
-              <td>{payment.dollars}</td>
-              <td>{payment.euros}</td>
+              <td className='is-hidden-mobile'>{payment.mono}</td>
+              <td className='is-hidden-mobile'>{payment.privat}</td>
+              <td className='is-hidden-tablet is-hidden-desktop'>{ payment.privat + payment.mono }</td>
+              <td className='is-hidden-mobile'>{payment.dollars}</td>
+              <td className='is-hidden-mobile'>{payment.euros}</td>
               <td>{payment.leocard}</td>
               <td className='bold'>{
                 payment.cash + payment.mono + payment.privat
