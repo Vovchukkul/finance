@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Form = () => {
   return (
-    <div>
+    <div className='form m-5'>
       <div className="field">
         <label className="label">Готівка</label>
         <div className="control has-icons-left">
