@@ -30,6 +30,7 @@ export const PaymentsList:React.FC<Props> = ({ payments, setDeletedPaymentDate }
               <tr 
                 className='is-size-5 is-size-7-mobile'
                 onDoubleClick={() => setDeletedPaymentDate(payment.date)}
+                key={payment.date}
               >
                 <td>{payment.date}</td>
                 <td>{payment.cash}</td>
